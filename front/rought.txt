@@ -1,0 +1,33 @@
+ @mouseenter="changeprofileMessage()" @mousemove="changeprofileMessage()" @mouseover="changeprofileMessage()"
+
+
+
+  axios.post('https://festalfactory.com:3000/upload/saveUserProfile',{token:this.userToken,image:this.profileImage,imageName:this.profileName,id:this.userId,})
+      .then((r)=>{
+        this.$store.dispatch('postNotification',{msg:'Changed',variant:'success'})
+         this.showProfileLoader=false;
+      })
+      .catch((r)=>{
+        this.$store.dispatch('postNotification',{msg:'Could Not Changed',variant:''})
+        this.showProfileLoader=false;
+      })
+
+
+
+
+
+
+
+
+
+
+
+      axios.post('https://festalfactory.com:3000/upload/saveUserProfile',{token:this.userToken,image:this.profileImage,imageName:this.profileName,id:this.userId,})
+      .then((r)=>{
+        this.$store.dispatch('postNotification',{msg:'Changed',variant:'success'})
+         this.showProfileLoader=false;
+      })
+      .catch((r)=>{
+        this.$store.dispatch('postNotification',{msg:'Could Not Changed',variant:''})
+        this.showProfileLoader=false;
+      })

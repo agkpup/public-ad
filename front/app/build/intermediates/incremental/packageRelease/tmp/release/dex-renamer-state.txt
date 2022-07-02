@@ -1,0 +1,4 @@
+#Sun Sep 12 03:46:21 IST 2021
+base.0=D\:\\deda\\front\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

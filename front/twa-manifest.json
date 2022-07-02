@@ -1,0 +1,46 @@
+{
+  "packageId": "com.festalfactory.twa",
+  "host": "festalfactory.com",
+  "name": "Deda by festalfactory pvt ltd",
+  "launcherName": "Deda",
+  "display": "standalone",
+  "themeColor": "#5BC0DE",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#000000",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://festalfactory.com/img/icons/apple-touch-icon.png",
+  "maskableIconUrl": "https://festalfactory.com/img/icons/apple-touch-icon.png",
+  "monochromeIconUrl": "https://festalfactory.com/img/icons/favicon-32x32.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "D:\\deda\\front\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://festalfactory.com/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    },
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": true
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "appVersion": "1"
+}

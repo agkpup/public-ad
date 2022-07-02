@@ -1,0 +1,8 @@
+com/festalfactory/twa/Application.java
+ com.festalfactory.twa.Application
+com/festalfactory/twa/DelegationService.java
+ com.festalfactory.twa.DelegationService
+com/festalfactory/twa/BuildConfig.java
+ com.festalfactory.twa.BuildConfig
+com/festalfactory/twa/LauncherActivity.java
+ com.festalfactory.twa.LauncherActivity
